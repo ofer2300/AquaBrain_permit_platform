@@ -1,0 +1,57 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.Python
+
+# Testing
+coverage/
+**/coverage/
+.nyc_output
+*.lcov
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Build
+dist/
+build/
+**/dist/
+**/build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+
+# Uploads
+uploads/
+**/uploads/
+
+# Keep artifacts
+!artifacts/
