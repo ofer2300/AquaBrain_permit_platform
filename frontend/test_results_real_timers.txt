@@ -1,0 +1,930 @@
+
+> building-permit-platform-frontend@1.0.0 test
+> cross-env CI=1 vitest --run DashboardPage.test.tsx
+
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mC:/Users/USER/AQ/building-permit-platform/frontend[39m
+
+[90mstderr[2m | src/__tests__/DashboardPage.test.tsx[2m > [22m[2mDashboardPage[2m > [22m[2mRendering and Loading State[2m > [22m[2mrenders without crashing[22m[39m
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [33m❯[39m src/__tests__/DashboardPage.test.tsx [2m ([22m[2m67 tests[22m [2m|[22m [31m65 failed[39m[2m)[22m[90m 128[2mms[22m[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRendering and Loading State[2m > [22mrenders without crashing[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRendering and Loading State[2m > [22mhides loading state after data loads[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mDashboard Header[2m > [22mdisplays dashboard heading[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mDashboard Header[2m > [22mdisplays last updated timestamp[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mDashboard Header[2m > [22mdisplays calendar icon in header[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mdisplays 4 stat cards[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mdisplays projects stat card[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mdisplays submissions stat card[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mdisplays pass rate stat card[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mdisplays fail rate stat card[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mstat cards have numeric values[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mstat cards display trend information[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mrenders bar chart section[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mrenders pie chart section[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mrenders line chart section[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mbar chart has proper aria labels[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mpie chart has proper aria labels[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mline chart has proper aria labels[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays recent projects section[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays projects table with data[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mtable has proper columns[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays project names in table[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays project cities[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays project status badges[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mprojects table rows are clickable[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mclicking project row navigates to detail page[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays view button for each project[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mview button navigates to project detail[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mhas proper table aria labels[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mdisplays recent submissions section[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mdisplays submissions table with data[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22msubmissions table has proper columns[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mdisplays submission project names[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mdisplays submission status badges[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mdisplays submission result badges[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22msubmissions table rows are clickable[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mclicking submission row navigates to detail page[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mEmpty State[2m > [22mshows empty state message when no projects[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mEmpty State[2m > [22mdisplays alert icon in empty state[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mResponsive Layout[2m > [22mdashboard is full width[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mResponsive Layout[2m > [22mstats grid is responsive[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mResponsive Layout[2m > [22mcharts section is responsive[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mResponsive Layout[2m > [22mtables are scrollable on small screens[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22mhas proper heading hierarchy[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22mstat cards have article role[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22mregions have aria labels[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22mtables have proper role[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22minteractive rows have proper keyboard support[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22mbuttons have accessible labels[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mData Display[2m > [22mdisplays all stat values correctly[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mData Display[2m > [22mformats dates correctly[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mData Display[2m > [22mdisplays status and result badges correctly[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mData Display[2m > [22mdisplays city information with icon[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mUser Interactions[2m > [22mhandles project row clicks[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mUser Interactions[2m > [22mhandles submission row clicks[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mUser Interactions[2m > [22mhandles view button clicks[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mUser Interactions[2m > [22mprevents event propagation on button click[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mUser Interactions[2m > [22mhandles keyboard navigation on table rows[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mError Handling[2m > [22mcontinues to render if data loading fails gracefully[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mError Handling[2m > [22mdisplays dashboard even if some data is missing[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mPerformance[2m > [22mrenders stat cards efficiently[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mPerformance[2m > [22mrenders tables without performance issues[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mVisual Elements[2m > [22mdisplays icons for stat cards[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mVisual Elements[2m > [22mdisplays styled badges for status[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[31m   [33m❯[31m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mVisual Elements[2m > [22mdisplays properly styled tables[39m
+[31m     → Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+
+[31m⎯⎯⎯⎯⎯⎯[1m[7m Failed Tests 65 [27m[22m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRendering and Loading State[2m > [22mrenders without crashing
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m36:10[22m[39m
+    [90m 34| [39m      [34mexpect[39m(screen[33m.[39m[34mgetByText[39m([36m/טוען נתונים/i[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m 35| [39m
+    [90m 36| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m 37| [39m
+    [90m 38| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRendering and Loading State[2m > [22mhides loading state after data loads
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m72:10[22m[39m
+    [90m 70| [39m      [34mexpect[39m(screen[33m.[39m[34mgetByText[39m([36m/טוען נתונים/i[39m))[33m.[39m[34mtoBeInTheDocument[39m()[33m;[39m
+    [90m 71| [39m
+    [90m 72| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m 73| [39m
+    [90m 74| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mDashboard Header[2m > [22mdisplays dashboard heading
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m88:10[22m[39m
+    [90m 86| [39m      )[33m;[39m
+    [90m 87| [39m
+    [90m 88| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m 89| [39m
+    [90m 90| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mDashboard Header[2m > [22mdisplays last updated timestamp
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m102:10[22m[39m
+    [90m100| [39m      )[33m;[39m
+    [90m101| [39m
+    [90m102| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m103| [39m
+    [90m104| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mDashboard Header[2m > [22mdisplays calendar icon in header
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m116:10[22m[39m
+    [90m114| [39m      )[33m;[39m
+    [90m115| [39m
+    [90m116| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m117| [39m
+    [90m118| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mdisplays 4 stat cards
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m133:10[22m[39m
+    [90m131| [39m      )[33m;[39m
+    [90m132| [39m
+    [90m133| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m134| [39m
+    [90m135| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mdisplays projects stat card
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m148:10[22m[39m
+    [90m146| [39m      )[33m;[39m
+    [90m147| [39m
+    [90m148| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m149| [39m
+    [90m150| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mdisplays submissions stat card
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m162:10[22m[39m
+    [90m160| [39m      )[33m;[39m
+    [90m161| [39m
+    [90m162| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m163| [39m
+    [90m164| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mdisplays pass rate stat card
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m176:10[22m[39m
+    [90m174| [39m      )[33m;[39m
+    [90m175| [39m
+    [90m176| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m177| [39m
+    [90m178| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mdisplays fail rate stat card
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m190:10[22m[39m
+    [90m188| [39m      )[33m;[39m
+    [90m189| [39m
+    [90m190| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m191| [39m
+    [90m192| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mstat cards have numeric values
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m204:10[22m[39m
+    [90m202| [39m      )[33m;[39m
+    [90m203| [39m
+    [90m204| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m205| [39m
+    [90m206| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mStatistics Cards[2m > [22mstat cards display trend information
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m222:10[22m[39m
+    [90m220| [39m      )[33m;[39m
+    [90m221| [39m
+    [90m222| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m223| [39m
+    [90m224| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mrenders bar chart section
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m238:10[22m[39m
+    [90m236| [39m      )[33m;[39m
+    [90m237| [39m
+    [90m238| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m239| [39m
+    [90m240| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mrenders pie chart section
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m252:10[22m[39m
+    [90m250| [39m      )[33m;[39m
+    [90m251| [39m
+    [90m252| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m253| [39m
+    [90m254| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mrenders line chart section
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m266:10[22m[39m
+    [90m264| [39m      )[33m;[39m
+    [90m265| [39m
+    [90m266| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m267| [39m
+    [90m268| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mbar chart has proper aria labels
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m280:10[22m[39m
+    [90m278| [39m      )[33m;[39m
+    [90m279| [39m
+    [90m280| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m281| [39m
+    [90m282| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mpie chart has proper aria labels
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m295:10[22m[39m
+    [90m293| [39m      )[33m;[39m
+    [90m294| [39m
+    [90m295| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m296| [39m
+    [90m297| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[17/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mCharts Rendering[2m > [22mline chart has proper aria labels
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m310:10[22m[39m
+    [90m308| [39m      )[33m;[39m
+    [90m309| [39m
+    [90m310| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m311| [39m
+    [90m312| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[18/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays recent projects section
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m327:10[22m[39m
+    [90m325| [39m      )[33m;[39m
+    [90m326| [39m
+    [90m327| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m328| [39m
+    [90m329| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[19/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays projects table with data
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m341:10[22m[39m
+    [90m339| [39m      )[33m;[39m
+    [90m340| [39m
+    [90m341| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m342| [39m
+    [90m343| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[20/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mtable has proper columns
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m355:10[22m[39m
+    [90m353| [39m      )[33m;[39m
+    [90m354| [39m
+    [90m355| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m356| [39m
+    [90m357| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[21/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays project names in table
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m372:10[22m[39m
+    [90m370| [39m      )[33m;[39m
+    [90m371| [39m
+    [90m372| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m373| [39m
+    [90m374| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[22/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays project cities
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m387:10[22m[39m
+    [90m385| [39m      )[33m;[39m
+    [90m386| [39m
+    [90m387| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m388| [39m
+    [90m389| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[23/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays project status badges
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m402:10[22m[39m
+    [90m400| [39m      )[33m;[39m
+    [90m401| [39m
+    [90m402| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m403| [39m
+    [90m404| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[24/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mprojects table rows are clickable
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m417:10[22m[39m
+    [90m415| [39m      )[33m;[39m
+    [90m416| [39m
+    [90m417| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m418| [39m
+    [90m419| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[25/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mclicking project row navigates to detail page
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m436:10[22m[39m
+    [90m434| [39m      )[33m;[39m
+    [90m435| [39m
+    [90m436| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m437| [39m
+    [90m438| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[26/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mdisplays view button for each project
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m454:10[22m[39m
+    [90m452| [39m      )[33m;[39m
+    [90m453| [39m
+    [90m454| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m455| [39m
+    [90m456| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[27/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mview button navigates to project detail
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m469:10[22m[39m
+    [90m467| [39m      )[33m;[39m
+    [90m468| [39m
+    [90m469| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m470| [39m
+    [90m471| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[28/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Projects Table[2m > [22mhas proper table aria labels
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m487:10[22m[39m
+    [90m485| [39m      )[33m;[39m
+    [90m486| [39m
+    [90m487| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m488| [39m
+    [90m489| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[29/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mdisplays recent submissions section
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m504:10[22m[39m
+    [90m502| [39m      )[33m;[39m
+    [90m503| [39m
+    [90m504| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m505| [39m
+    [90m506| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[30/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mdisplays submissions table with data
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m518:10[22m[39m
+    [90m516| [39m      )[33m;[39m
+    [90m517| [39m
+    [90m518| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m519| [39m
+    [90m520| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[31/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22msubmissions table has proper columns
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m533:10[22m[39m
+    [90m531| [39m      )[33m;[39m
+    [90m532| [39m
+    [90m533| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m534| [39m
+    [90m535| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[32/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mdisplays submission project names
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m548:10[22m[39m
+    [90m546| [39m      )[33m;[39m
+    [90m547| [39m
+    [90m548| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m549| [39m
+    [90m550| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[33/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mdisplays submission status badges
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m562:10[22m[39m
+    [90m560| [39m      )[33m;[39m
+    [90m561| [39m
+    [90m562| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m563| [39m
+    [90m564| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[34/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mdisplays submission result badges
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m577:10[22m[39m
+    [90m575| [39m      )[33m;[39m
+    [90m576| [39m
+    [90m577| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m578| [39m
+    [90m579| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[35/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22msubmissions table rows are clickable
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m592:10[22m[39m
+    [90m590| [39m      )[33m;[39m
+    [90m591| [39m
+    [90m592| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m593| [39m
+    [90m594| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[36/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mRecent Submissions Table[2m > [22mclicking submission row navigates to detail page
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m610:10[22m[39m
+    [90m608| [39m      )[33m;[39m
+    [90m609| [39m
+    [90m610| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m611| [39m
+    [90m612| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[37/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mEmpty State[2m > [22mshows empty state message when no projects
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m631:10[22m[39m
+    [90m629| [39m      )[33m;[39m
+    [90m630| [39m
+    [90m631| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m632| [39m
+    [90m633| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[38/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mEmpty State[2m > [22mdisplays alert icon in empty state
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m646:10[22m[39m
+    [90m644| [39m      )[33m;[39m
+    [90m645| [39m
+    [90m646| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m647| [39m
+    [90m648| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[39/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mResponsive Layout[2m > [22mdashboard is full width
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m662:10[22m[39m
+    [90m660| [39m      )[33m;[39m
+    [90m661| [39m
+    [90m662| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m663| [39m
+    [90m664| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[40/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mResponsive Layout[2m > [22mstats grid is responsive
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m677:10[22m[39m
+    [90m675| [39m      )[33m;[39m
+    [90m676| [39m
+    [90m677| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m678| [39m
+    [90m679| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[41/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mResponsive Layout[2m > [22mcharts section is responsive
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m692:10[22m[39m
+    [90m690| [39m      )[33m;[39m
+    [90m691| [39m
+    [90m692| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m693| [39m
+    [90m694| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[42/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mResponsive Layout[2m > [22mtables are scrollable on small screens
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m707:10[22m[39m
+    [90m705| [39m      )[33m;[39m
+    [90m706| [39m
+    [90m707| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m708| [39m
+    [90m709| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[43/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22mhas proper heading hierarchy
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m724:10[22m[39m
+    [90m722| [39m      )[33m;[39m
+    [90m723| [39m
+    [90m724| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m725| [39m
+    [90m726| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[44/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22mstat cards have article role
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m739:10[22m[39m
+    [90m737| [39m      )[33m;[39m
+    [90m738| [39m
+    [90m739| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m740| [39m
+    [90m741| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[45/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22mregions have aria labels
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m754:10[22m[39m
+    [90m752| [39m      )[33m;[39m
+    [90m753| [39m
+    [90m754| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m755| [39m
+    [90m756| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[46/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22mtables have proper role
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m771:10[22m[39m
+    [90m769| [39m      )[33m;[39m
+    [90m770| [39m
+    [90m771| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m772| [39m
+    [90m773| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[47/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22minteractive rows have proper keyboard support
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m786:10[22m[39m
+    [90m784| [39m      )[33m;[39m
+    [90m785| [39m
+    [90m786| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m787| [39m
+    [90m788| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[48/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mAccessibility[2m > [22mbuttons have accessible labels
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m805:10[22m[39m
+    [90m803| [39m      )[33m;[39m
+    [90m804| [39m
+    [90m805| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m806| [39m
+    [90m807| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[49/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mData Display[2m > [22mdisplays all stat values correctly
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m824:10[22m[39m
+    [90m822| [39m      )[33m;[39m
+    [90m823| [39m
+    [90m824| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m825| [39m
+    [90m826| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[50/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mData Display[2m > [22mformats dates correctly
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m839:10[22m[39m
+    [90m837| [39m      )[33m;[39m
+    [90m838| [39m
+    [90m839| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m840| [39m
+    [90m841| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[51/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mData Display[2m > [22mdisplays status and result badges correctly
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m854:10[22m[39m
+    [90m852| [39m      )[33m;[39m
+    [90m853| [39m
+    [90m854| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m855| [39m
+    [90m856| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[52/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mData Display[2m > [22mdisplays city information with icon
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m869:10[22m[39m
+    [90m867| [39m      )[33m;[39m
+    [90m868| [39m
+    [90m869| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m870| [39m
+    [90m871| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[53/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mUser Interactions[2m > [22mhandles project row clicks
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m886:10[22m[39m
+    [90m884| [39m      )[33m;[39m
+    [90m885| [39m
+    [90m886| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m887| [39m
+    [90m888| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[54/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mUser Interactions[2m > [22mhandles submission row clicks
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m904:10[22m[39m
+    [90m902| [39m      )[33m;[39m
+    [90m903| [39m
+    [90m904| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m905| [39m
+    [90m906| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[55/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mUser Interactions[2m > [22mhandles view button clicks
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m922:10[22m[39m
+    [90m920| [39m      )[33m;[39m
+    [90m921| [39m
+    [90m922| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m923| [39m
+    [90m924| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[56/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mUser Interactions[2m > [22mprevents event propagation on button click
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m940:10[22m[39m
+    [90m938| [39m      )[33m;[39m
+    [90m939| [39m
+    [90m940| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m941| [39m
+    [90m942| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[57/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mUser Interactions[2m > [22mhandles keyboard navigation on table rows
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m960:10[22m[39m
+    [90m958| [39m      )[33m;[39m
+    [90m959| [39m
+    [90m960| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m961| [39m
+    [90m962| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[58/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mError Handling[2m > [22mcontinues to render if data loading fails gracefully
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m981:10[22m[39m
+    [90m979| [39m      )[33m;[39m
+    [90m980| [39m
+    [90m981| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m982| [39m
+    [90m983| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[59/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mError Handling[2m > [22mdisplays dashboard even if some data is missing
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m995:10[22m[39m
+    [90m993| [39m      )[33m;[39m
+    [90m994| [39m
+    [90m995| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m996| [39m
+    [90m997| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[60/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mPerformance[2m > [22mrenders stat cards efficiently
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m1011:10[22m[39m
+    [90m1009| [39m      )[33m;[39m
+    [90m1010| [39m
+    [90m1011| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m1012| [39m
+    [90m1013| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[61/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mPerformance[2m > [22mrenders tables without performance issues
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m1039:10[22m[39m
+    [90m1037| [39m      )[33m;[39m
+    [90m1038| [39m
+    [90m1039| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m1040| [39m
+    [90m1041| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[62/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mVisual Elements[2m > [22mdisplays icons for stat cards
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m1060:10[22m[39m
+    [90m1058| [39m      )[33m;[39m
+    [90m1059| [39m
+    [90m1060| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m1061| [39m
+    [90m1062| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[63/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mVisual Elements[2m > [22mdisplays styled badges for status
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m1075:10[22m[39m
+    [90m1073| [39m      )[33m;[39m
+    [90m1074| [39m
+    [90m1075| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m1076| [39m
+    [90m1077| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[64/65]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m src/__tests__/DashboardPage.test.tsx[2m > [22mDashboardPage[2m > [22mVisual Elements[2m > [22mdisplays properly styled tables
+[31m[1mError[22m: Timers are not mocked. Try calling "vi.useFakeTimers()" first.[39m
+[36m [2m❯[22m src/__tests__/DashboardPage.test.tsx:[2m1091:10[22m[39m
+    [90m1089| [39m      )[33m;[39m
+    [90m1090| [39m
+    [90m1091| [39m      vi[33m.[39m[34madvanceTimersByTime[39m([34m800[39m)[33m;[39m
+    [90m   | [39m         [31m^[39m
+    [90m1092| [39m
+    [90m1093| [39m      [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[65/65]⎯[22m[39m
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m65 failed[39m[22m[2m | [22m[1m[32m2 passed[39m[22m[90m (67)[39m
+[2m   Start at [22m 20:42:21
+[2m   Duration [22m 2.92s[2m (transform 146ms, setup 171ms, collect 1.04s, tests 128ms, environment 902ms, prepare 154ms)[22m
+

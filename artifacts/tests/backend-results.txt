@@ -1,0 +1,141 @@
+
+> building-permit-platform-backend@1.0.0 test
+> jest --coverage --watch=false
+
+PASS src/__tests__/project.test.ts
+  Project Routes
+    POST /api/projects
+      √ should create project with authorized user (36 ms)
+      √ should create project without description (5 ms)
+      √ should fail to create project without token (unauthorized) (3 ms)
+      √ should fail to create project with invalid token (4 ms)
+      √ should fail to create project with missing required fields (21 ms)
+    GET /api/projects
+      √ should get all projects with pagination (5 ms)
+      √ should paginate projects correctly (5 ms)
+      √ should filter projects by status (3 ms)
+      √ should filter projects by city (4 ms)
+      √ should filter projects by status and city (3 ms)
+      √ should handle case-insensitive city filter (4 ms)
+      √ should return empty array when no projects match filter (5 ms)
+      √ should use default pagination values (3 ms)
+      √ should fail without authentication (3 ms)
+    GET /api/projects/:id
+      √ should get single project by ID (3 ms)
+      √ should return 404 for non-existent project (4 ms)
+      √ should fail without authentication (2 ms)
+      √ should allow any authenticated user to view project (9 ms)
+    PUT /api/projects/:id
+      √ should update project as owner (5 ms)
+      √ should allow partial updates (5 ms)
+      √ should fail to update project as non-owner (forbidden) (3 ms)
+      √ should allow admin to update any project (4 ms)
+      √ should return 404 for non-existent project (4 ms)
+      √ should fail without authentication (4 ms)
+      √ should preserve ownerId on update (3 ms)
+    DELETE /api/projects/:id
+      √ should delete project as owner (3 ms)
+      √ should fail to delete project as non-owner (forbidden) (3 ms)
+      √ should allow admin to delete any project (3 ms)
+      √ should return 404 for non-existent project (4 ms)
+      √ should fail without authentication (3 ms)
+      √ should not allow deleting project twice (6 ms)
+    Integration: Full Project CRUD Flow
+      √ should complete full project lifecycle (15 ms)
+      √ should enforce ownership across operations (14 ms)
+
+PASS src/__tests__/file.test.ts
+  File Routes
+    POST /api/projects/:projectId/files
+      √ should upload PDF file successfully (42 ms)
+      √ should upload image file (JPEG) successfully (6 ms)
+      √ should upload image file (PNG) successfully (6 ms)
+      √ should fail upload with invalid file type (5 ms)
+      √ should fail upload with file too large (41 ms)
+      √ should fail upload without file (4 ms)
+      √ should fail upload to non-existent project (4 ms)
+      √ should fail upload to other user project (forbidden) (5 ms)
+      √ should allow admin to upload to any project (5 ms)
+      √ should fail upload without authentication (3 ms)
+      √ should upload Word document successfully (5 ms)
+      √ should upload Excel spreadsheet successfully (4 ms)
+    GET /api/files/:fileId
+      √ should get file metadata with authorized user (3 ms)
+      √ should fail to get non-existent file (404) (3 ms)
+      √ should fail without authentication (401) (2 ms)
+      √ should allow any authenticated user to view file metadata (7 ms)
+    GET /api/files/:fileId/download
+      √ should download file with authorized user (3 ms)
+      √ should fail to download non-existent file (404) (3 ms)
+      √ should fail download without authentication (401) (4 ms)
+      √ should allow any authenticated user to download file (9 ms)
+      √ should set correct content headers for different file types (3 ms)
+    GET /api/projects/:projectId/files
+      √ should list all files for a project (3 ms)
+      √ should return empty array for project with no files (4 ms)
+      √ should fail for non-existent project (3 ms)
+      √ should fail without authentication (3 ms)
+      √ should allow any authenticated user to list project files (6 ms)
+    DELETE /api/files/:fileId
+      √ should delete file as uploader (authorized) (4 ms)
+      √ should delete file as project owner (4 ms)
+      √ should allow admin to delete any file (3 ms)
+      √ should fail to delete file as unauthorized user (forbidden) (3 ms)
+      √ should fail to delete non-existent file (404) (3 ms)
+      √ should fail without authentication (5 ms)
+      √ should not allow deleting file twice (6 ms)
+    Integration: Full File Management Flow
+      √ should complete full file upload, list, download, delete flow (23 ms)
+      √ should handle multiple file uploads to same project (15 ms)
+      √ should enforce authorization throughout file lifecycle (14 ms)
+
+PASS src/__tests__/auth.test.ts
+  Auth Routes
+    POST /api/auth/register
+      √ should register a new user with valid credentials (120 ms)
+      √ should fail registration with existing email (83 ms)
+      √ should fail registration with invalid email format (17 ms)
+      √ should fail registration with weak password (15 ms)
+      √ should fail registration with missing fields (13 ms)
+      √ should hash password before storing (143 ms)
+    POST /api/auth/login
+      √ should login with valid credentials (129 ms)
+      √ should fail login with invalid password (125 ms)
+      √ should fail login with non-existent user (65 ms)
+      √ should fail login with missing email (62 ms)
+      √ should fail login with missing password (63 ms)
+    GET /api/auth/me
+      √ should get current user with valid JWT token (64 ms)
+      √ should fail without authentication token (401) (65 ms)
+      √ should fail with invalid token format (63 ms)
+      √ should fail with malformed JWT token (401) (63 ms)
+      √ should fail with expired JWT token (177 ms)
+      √ should fail with token signed with wrong secret (63 ms)
+      √ should fail when user no longer exists (69 ms)
+    JWT Token Validation
+      √ should generate valid JWT token with correct payload (1 ms)
+      √ should create tokens with 24 hour expiration (1 ms)
+      √ should verify token with correct secret
+      √ should reject token verification with wrong secret (16 ms)
+    Password Hashing Verification
+      √ should hash password correctly (62 ms)
+      √ should generate different hashes for same password (123 ms)
+      √ should verify correct password against hash (120 ms)
+      √ should reject incorrect password against hash (123 ms)
+      √ should handle password comparison with invalid hash
+      √ should use bcrypt with sufficient salt rounds (60 ms)
+    Integration: Full Authentication Flow
+      √ should complete full registration and login flow (131 ms)
+      √ should maintain separate sessions for different users (131 ms)
+
+------------|---------|----------|---------|---------|-------------------
+File        | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+------------|---------|----------|---------|---------|-------------------
+All files   |      95 |       50 |   83.33 |   96.55 |                   
+ helpers.ts |      95 |       50 |   83.33 |   96.55 | 206               
+------------|---------|----------|---------|---------|-------------------
+Test Suites: 3 passed, 3 total
+Tests:       99 passed, 99 total
+Snapshots:   0 total
+Time:        5.635 s
+Ran all test suites.

@@ -1,0 +1,26 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.2, pluggy-1.6.0
+rootdir: C:\Users\USER\AQ\building-permit-platform\ai-service
+configfile: pytest.ini
+testpaths: tests
+plugins: anyio-4.11.0, langsmith-0.4.41, asyncio-1.2.0, cov-7.0.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 116 items
+
+tests\test_analysis_service.py ......................................... [ 35%]
+..                                                                       [ 37%]
+tests\test_rules_engine.py ............................................. [ 75%]
+............................                                             [100%]
+
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.11.9-final-0 _______________
+
+Name                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------
+app\analysis_service.py     516    153    70%   25, 33-35, 39-40, 52-54, 60-66, 154-162, 191-192, 233-237, 244, 247-248, 345, 402-406, 409-410, 537-539, 549-551, 640-645, 661, 671-673, 691, 693, 737-739, 752-754, 760-762, 823-825, 939-963, 980-989, 993-1001, 1017-1049, 1080-1088, 1093-1100, 1169-1171
+app\rules_engine.py         893     60    93%   126, 202, 306, 362, 370, 414-419, 547, 575, 631, 639, 696-697, 705, 721, 936, 1001, 1152, 1162, 1179, 1236, 1245, 1257, 1266, 1404, 1414, 1423, 1432, 1439, 1446, 1485, 1703-1705, 1751-1753, 1843-1851, 1865-1877, 1892, 1921-1926, 1943
+-------------------------------------------------------
+TOTAL                      1409    213    85%
+Coverage HTML written to dir htmlcov
+Coverage XML written to file coverage.xml
+============================= 116 passed in 2.27s =============================

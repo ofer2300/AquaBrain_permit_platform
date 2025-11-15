@@ -1,0 +1,2880 @@
+
+> building-permit-platform-frontend@1.0.0 test
+> cross-env CI=1 vitest --run LoginPage.test.tsx
+
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mC:/Users/USER/AQ/building-permit-platform/frontend[39m
+
+ [33m❯[39m src/__tests__/LoginPage.test.tsx [2m ([22m[2m55 tests[22m [2m|[22m [31m11 failed[39m[2m)[22m[33m 20757[2mms[22m[39m
+[31m   [33m❯[31m src/__tests__/LoginPage.test.tsx[2m > [22mLoginPage[2m > [22mEmail Input Validation[2m > [22mvalidates email on blur[39m
+[31m     → Unable to find an element with the text: /כתובת אימייל לא תקינה/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-gray-300 text-gray-500 cursor-not-allowed"[31m
+              [33mdisabled[31m=[32m""[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-gray-300 text-gray-500 cursor-not-allowed"[31m
+              [33mdisabled[31m=[32m""[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/__tests__/LoginPage.test.tsx[2m > [22mLoginPage[2m > [22mSubmit Button State[2m > [22msubmit button shows loading state during submission[39m
+[31m     → Unable to find a label with the text of: /אימייل/i
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-gray-300 text-gray-500 cursor-not-allowed"[31m
+              [33mdisabled[31m=[32m""[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/__tests__/LoginPage.test.tsx[2m > [22mLoginPage[2m > [22mSuccessful Login[2m > [22mnavigates to dashboard on successful login[39m
+[31m     → Unable to find a label with the text of: /סिسمה/i
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-gray-300 text-gray-500 cursor-not-allowed"[31m
+              [33mdisabled[31m=[32m""[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/__tests__/LoginPage.test.tsx[2m > [22mLoginPage[2m > [22mSuccessful Login[2m > [22mdisables form inputs during submission[39m
+[31m     → Unable to find a label with the text of: /אימייل/i
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-gray-300 text-gray-500 cursor-not-allowed"[31m
+              [33mdisabled[31m=[32m""[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/__tests__/LoginPage.test.tsx[2m > [22mLoginPage[2m > [22mFailed Login[2m > [22mdisplays error message on failed login[39m
+[31m     → Unable to find an element with the text: /שם משתמש או סיסמה שגויים/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex gap-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33mclass[31m=[32m"lucide lucide-circle-alert w-5 h-5 text-red-600 flex-shrink-0 mt-0.5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<circle[31m
+                [33mcx[31m=[32m"12"[31m
+                [33mcy[31m=[32m"12"[31m
+                [33mr[31m=[32m"10"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12"[31m
+                [33my1[31m=[32m"8"[31m
+                [33my2[31m=[32m"12"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12.01"[31m
+                [33my1[31m=[32m"16"[31m
+                [33my2[31m=[32m"16"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-sm text-red-700"[31m
+            [36m>[31m
+              [0mשגיאת רשת. אנא בדוק את החיבור שלך ונסה שוב.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-blue-600 text-white hover:bg-blue-700"[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex gap-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33mclass[31m=[32m"lucide lucide-circle-alert w-5 h-5 text-red-600 flex-shrink-0 mt-0.5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<circle[31m
+                [33mcx[31m=[32m"12"[31m
+                [33mcy[31m=[32m"12"[31m
+                [33mr[31m=[32m"10"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12"[31m
+                [33my1[31m=[32m"8"[31m
+                [33my2[31m=[32m"12"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12.01"[31m
+                [33my1[31m=[32m"16"[31m
+                [33my2[31m=[32m"16"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-sm text-red-700"[31m
+            [36m>[31m
+              [0mשגיאת רשת. אנא בדוק את החיבור שלך ונסה שוב.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-blue-600 text-white hover:bg-blue-700"[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m
+
+Ignored nodes: comments, script, style
+[36m<html>[31m
+  [36m<head />[31m
+  [36m<body>[31m
+    [36m<div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+        [33mdir[31m=[32m"rtl"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"w-full max-w-md"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex justify-center mb-8"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                  [36m/>[31m
+                  [36m<polyline[31m
+                    [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                  [36m/>[31m
+                  [36m<line[31m
+                    [33mx1[31m=[32m"15"[31m
+                    [33mx2[31m=[32m"3"[31m
+                    [33my1[31m=[32m"12"[31m
+                    [33my2[31m=[32m"12"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<h1[31m
+              [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mהתחבר לחשבון שלך[0m
+            [36m</h1>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+            [36m>[31m
+              [0mניהול הרשאות בנייה בקלות וביעילות[0m
+            [36m</p>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex gap-3"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-circle-alert w-5 h-5 text-red-600 flex-shrink-0 mt-0.5"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<circle[31m
+                  [33mcx[31m=[32m"12"[31m
+                  [33mcy[31m=[32m"12"[31m
+                  [33mr[31m=[32m"10"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"8"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12.01"[31m
+                  [33my1[31m=[32m"16"[31m
+                  [33my2[31m=[32m"16"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-sm text-red-700"[31m
+              [36m>[31m
+                [0mשגיאת רשת. אנא בדוק את החיבור שלך ונסה שוב.[0m
+              [36m</p>[31m
+            [36m</div>[31m
+            [36m<form[31m
+              [33mclass[31m=[32m"space-y-6"[31m
+            [36m>[31m
+              [36m<div>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                  [33mfor[31m=[32m"email"[31m
+                [36m>[31m
+                  [0mאימייל[0m
+                [36m</label>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"email"[31m
+                  [33mname[31m=[32m"email"[31m
+                  [33mplaceholder[31m=[32m"you@example.com"[31m
+                  [33mtype[31m=[32m"email"[31m
+                [36m/>[31m
+              [36m</div>[31m
+              [36m<div>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                  [33mfor[31m=[32m"password"[31m
+                [36m>[31m
+                  [0mסיסמה[0m
+                [36m</label>[31m
+                [36m<div[31m
+                  [33mclass[31m=[32m"relative"[31m
+                [36m>[31m
+                  [36m<input[31m
+                    [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                    [33mid[31m=[32m"password"[31m
+                    [33mname[31m=[32m"password"[31m
+                    [33mplaceholder[31m=[32m"••••••••"[31m
+                    [33mtype[31m=[32m"password"[31m
+                  [36m/>[31m
+                  [36m<button[31m
+                    [33maria-label[31m=[32m"הצג סיסמה"[31m
+                    [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                    [33mtabindex[31m=[32m"-1"[31m
+                    [33mtype[31m=[32m"button"[31m
+                  [36m>[31m
+                    [0mהצג[0m
+                  [36m</button>[31m
+                [36m</div>[31m
+              [36m</div>[31m
+              [36m<button[31m
+                [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-blue-600 text-white hover:bg-blue-700"[31m
+                [33mtype[31m=[32m"submit"[31m
+              [36m>[31m
+                [0mהתחבר[0m
+              [36m</button>[31m
+            [36m</form>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mt-6 text-center"[31m
+            [36m>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-gray-600"[31m
+              [36m>[31m
+                [0mאין לך חשבון?[0m
+                [0m [0m
+                [36m<a[31m
+                  [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                  [33mhref[31m=[32m"/register"[31m
+                [36m>[31m
+                  [0mהירשם כאן[0m
+                [36m</a>[31m
+              [36m</p>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</body>[31m
+[36m</html>[31m[39m
+[31m   [33m❯[31m src/__tests__/LoginPage.test.tsx[2m > [22mLoginPage[2m > [22mFailed Login[2m > [22mshows default error message when API response is empty[39m
+[31m     → Unable to find an element with the text: /שגיאה בהתחברות/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex gap-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33mclass[31m=[32m"lucide lucide-circle-alert w-5 h-5 text-red-600 flex-shrink-0 mt-0.5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<circle[31m
+                [33mcx[31m=[32m"12"[31m
+                [33mcy[31m=[32m"12"[31m
+                [33mr[31m=[32m"10"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12"[31m
+                [33my1[31m=[32m"8"[31m
+                [33my2[31m=[32m"12"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12.01"[31m
+                [33my1[31m=[32m"16"[31m
+                [33my2[31m=[32m"16"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-sm text-red-700"[31m
+            [36m>[31m
+              [0mשגיאת רשת. אנא בדוק את החיבור שלך ונסה שוב.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-blue-600 text-white hover:bg-blue-700"[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex gap-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33mclass[31m=[32m"lucide lucide-circle-alert w-5 h-5 text-red-600 flex-shrink-0 mt-0.5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<circle[31m
+                [33mcx[31m=[32m"12"[31m
+                [33mcy[31m=[32m"12"[31m
+                [33mr[31m=[32m"10"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12"[31m
+                [33my1[31m=[32m"8"[31m
+                [33my2[31m=[32m"12"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12.01"[31m
+                [33my1[31m=[32m"16"[31m
+                [33my2[31m=[32m"16"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-sm text-red-700"[31m
+            [36m>[31m
+              [0mשגיאת רשת. אנא בדוק את החיבור שלך ונסה שוב.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-blue-600 text-white hover:bg-blue-700"[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/__tests__/LoginPage.test.tsx[2m > [22mLoginPage[2m > [22mFailed Login[2m > [22mshows network error message on connection failure[39m
+[31m     → Unable to find a label with the text of: /סиسمה/i
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-gray-300 text-gray-500 cursor-not-allowed"[31m
+              [33mdisabled[31m=[32m""[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/__tests__/LoginPage.test.tsx[2m > [22mLoginPage[2m > [22mFailed Login[2m > [22merror message displays in alert element[39m
+[31m     → Unable to find an element with the text: /Authentication failed/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex gap-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33mclass[31m=[32m"lucide lucide-circle-alert w-5 h-5 text-red-600 flex-shrink-0 mt-0.5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<circle[31m
+                [33mcx[31m=[32m"12"[31m
+                [33mcy[31m=[32m"12"[31m
+                [33mr[31m=[32m"10"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12"[31m
+                [33my1[31m=[32m"8"[31m
+                [33my2[31m=[32m"12"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12.01"[31m
+                [33my1[31m=[32m"16"[31m
+                [33my2[31m=[32m"16"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-sm text-red-700"[31m
+            [36m>[31m
+              [0mשגיאת רשת. אנא בדוק את החיבור שלך ונסה שוב.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-blue-600 text-white hover:bg-blue-700"[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex gap-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33mclass[31m=[32m"lucide lucide-circle-alert w-5 h-5 text-red-600 flex-shrink-0 mt-0.5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<circle[31m
+                [33mcx[31m=[32m"12"[31m
+                [33mcy[31m=[32m"12"[31m
+                [33mr[31m=[32m"10"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12"[31m
+                [33my1[31m=[32m"8"[31m
+                [33my2[31m=[32m"12"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12.01"[31m
+                [33my1[31m=[32m"16"[31m
+                [33my2[31m=[32m"16"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-sm text-red-700"[31m
+            [36m>[31m
+              [0mשגיאת רשת. אנא בדוק את החיבור שלך ונסה שוב.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-blue-600 text-white hover:bg-blue-700"[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m
+
+Ignored nodes: comments, script, style
+[36m<html>[31m
+  [36m<head />[31m
+  [36m<body>[31m
+    [36m<div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+        [33mdir[31m=[32m"rtl"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"w-full max-w-md"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex justify-center mb-8"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                  [36m/>[31m
+                  [36m<polyline[31m
+                    [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                  [36m/>[31m
+                  [36m<line[31m
+                    [33mx1[31m=[32m"15"[31m
+                    [33mx2[31m=[32m"3"[31m
+                    [33my1[31m=[32m"12"[31m
+                    [33my2[31m=[32m"12"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<h1[31m
+              [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+            [36m>[31m
+              [0mהתחבר לחשבון שלך[0m
+            [36m</h1>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+            [36m>[31m
+              [0mניהול הרשאות בנייה בקלות וביעילות[0m
+            [36m</p>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex gap-3"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-circle-alert w-5 h-5 text-red-600 flex-shrink-0 mt-0.5"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<circle[31m
+                  [33mcx[31m=[32m"12"[31m
+                  [33mcy[31m=[32m"12"[31m
+                  [33mr[31m=[32m"10"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"8"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12.01"[31m
+                  [33my1[31m=[32m"16"[31m
+                  [33my2[31m=[32m"16"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-sm text-red-700"[31m
+              [36m>[31m
+                [0mשגיאת רשת. אנא בדוק את החיבור שלך ונסה שוב.[0m
+              [36m</p>[31m
+            [36m</div>[31m
+            [36m<form[31m
+              [33mclass[31m=[32m"space-y-6"[31m
+            [36m>[31m
+              [36m<div>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                  [33mfor[31m=[32m"email"[31m
+                [36m>[31m
+                  [0mאימייל[0m
+                [36m</label>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"email"[31m
+                  [33mname[31m=[32m"email"[31m
+                  [33mplaceholder[31m=[32m"you@example.com"[31m
+                  [33mtype[31m=[32m"email"[31m
+                [36m/>[31m
+              [36m</div>[31m
+              [36m<div>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                  [33mfor[31m=[32m"password"[31m
+                [36m>[31m
+                  [0mסיסמה[0m
+                [36m</label>[31m
+                [36m<div[31m
+                  [33mclass[31m=[32m"relative"[31m
+                [36m>[31m
+                  [36m<input[31m
+                    [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                    [33mid[31m=[32m"password"[31m
+                    [33mname[31m=[32m"password"[31m
+                    [33mplaceholder[31m=[32m"••••••••"[31m
+                    [33mtype[31m=[32m"password"[31m
+                  [36m/>[31m
+                  [36m<button[31m
+                    [33maria-label[31m=[32m"הצג סיסמה"[31m
+                    [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                    [33mtabindex[31m=[32m"-1"[31m
+                    [33mtype[31m=[32m"button"[31m
+                  [36m>[31m
+                    [0mהצג[0m
+                  [36m</button>[31m
+                [36m</div>[31m
+              [36m</div>[31m
+              [36m<button[31m
+                [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-blue-600 text-white hover:bg-blue-700"[31m
+                [33mtype[31m=[32m"submit"[31m
+              [36m>[31m
+                [0mהתחבר[0m
+              [36m</button>[31m
+            [36m</form>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mt-6 text-center"[31m
+            [36m>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-gray-600"[31m
+              [36m>[31m
+                [0mאין לך חשבון?[0m
+                [0m [0m
+                [36m<a[31m
+                  [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                  [33mhref[31m=[32m"/register"[31m
+                [36m>[31m
+                  [0mהירשם כאן[0m
+                [36m</a>[31m
+              [36m</p>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</body>[31m
+[36m</html>[31m[39m
+[31m   [33m❯[31m src/__tests__/LoginPage.test.tsx[2m > [22mLoginPage[2m > [22mFailed Login[2m > [22mclears error message on new submission attempt[39m
+[31m     → Unable to find an element with the text: /Invalid credentials/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex gap-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33mclass[31m=[32m"lucide lucide-circle-alert w-5 h-5 text-red-600 flex-shrink-0 mt-0.5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<circle[31m
+                [33mcx[31m=[32m"12"[31m
+                [33mcy[31m=[32m"12"[31m
+                [33mr[31m=[32m"10"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12"[31m
+                [33my1[31m=[32m"8"[31m
+                [33my2[31m=[32m"12"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12.01"[31m
+                [33my1[31m=[32m"16"[31m
+                [33my2[31m=[32m"16"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-sm text-red-700"[31m
+            [36m>[31m
+              [0mשגיאת רשת. אנא בדוק את החיבור שלך ונסה שוב.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-blue-600 text-white hover:bg-blue-700"[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex gap-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33mclass[31m=[32m"lucide lucide-circle-alert w-5 h-5 text-red-600 flex-shrink-0 mt-0.5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<circle[31m
+                [33mcx[31m=[32m"12"[31m
+                [33mcy[31m=[32m"12"[31m
+                [33mr[31m=[32m"10"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12"[31m
+                [33my1[31m=[32m"8"[31m
+                [33my2[31m=[32m"12"[31m
+              [36m/>[31m
+              [36m<line[31m
+                [33mx1[31m=[32m"12"[31m
+                [33mx2[31m=[32m"12.01"[31m
+                [33my1[31m=[32m"16"[31m
+                [33my2[31m=[32m"16"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-sm text-red-700"[31m
+            [36m>[31m
+              [0mשגיאת רשת. אנא בדוק את החיבור שלך ונסה שוב.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-blue-600 text-white hover:bg-blue-700"[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/__tests__/LoginPage.test.tsx[2m > [22mLoginPage[2m > [22mForm Submission[2m > [22mprevents double submission[39m
+[31m     → Unable to find an accessible element with the role "button" and name `/התחبر/i`
+
+Here are the accessible roles:
+
+  heading:
+
+  Name "התחבר לחשבון שלך":
+  [36m<h1[31m
+    [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "אימייל":
+  [36m<input[31m
+    [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+    [33mid[31m=[32m"email"[31m
+    [33mname[31m=[32m"email"[31m
+    [33mplaceholder[31m=[32m"you@example.com"[31m
+    [33mtype[31m=[32m"email"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+  button:
+
+  Name "הצג סיסמה":
+  [36m<button[31m
+    [33maria-label[31m=[32m"הצג סיסמה"[31m
+    [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+    [33mtabindex[31m=[32m"-1"[31m
+    [33mtype[31m=[32m"button"[31m
+  [36m/>[31m
+
+  Name "התחבר":
+  [36m<button[31m
+    [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-gray-300 text-gray-500 cursor-not-allowed"[31m
+    [33mdisabled[31m=[32m""[31m
+    [33mtype[31m=[32m"submit"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+  link:
+
+  Name "הירשם כאן":
+  [36m<a[31m
+    [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+    [33mhref[31m=[32m"/register"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-gray-300 text-gray-500 cursor-not-allowed"[31m
+              [33mdisabled[31m=[32m""[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [33m❯[31m src/__tests__/LoginPage.test.tsx[2m > [22mLoginPage[2m > [22mEdge Cases[2m > [22mhandles special characters in password[39m
+[31m     → Unable to find an accessible element with the role "button" and name `/התחبر/i`
+
+Here are the accessible roles:
+
+  heading:
+
+  Name "התחבר לחשבון שלך":
+  [36m<h1[31m
+    [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "אימייל":
+  [36m<input[31m
+    [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+    [33mid[31m=[32m"email"[31m
+    [33mname[31m=[32m"email"[31m
+    [33mplaceholder[31m=[32m"you@example.com"[31m
+    [33mtype[31m=[32m"email"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+  button:
+
+  Name "הצג סיסמה":
+  [36m<button[31m
+    [33maria-label[31m=[32m"הצג סיסמה"[31m
+    [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+    [33mtabindex[31m=[32m"-1"[31m
+    [33mtype[31m=[32m"button"[31m
+  [36m/>[31m
+
+  Name "התחבר":
+  [36m<button[31m
+    [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-gray-300 text-gray-500 cursor-not-allowed"[31m
+    [33mdisabled[31m=[32m""[31m
+    [33mtype[31m=[32m"submit"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+  link:
+
+  Name "הירשם כאן":
+  [36m<a[31m
+    [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+    [33mhref[31m=[32m"/register"[31m
+  [36m/>[31m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center py-12 px-4"[31m
+      [33mdir[31m=[32m"rtl"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"w-full max-w-md"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"bg-white rounded-2xl shadow-xl p-8 border border-gray-100"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex justify-center mb-8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"bg-blue-100 p-3 rounded-lg"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33mclass[31m=[32m"lucide lucide-log-in w-8 h-8 text-blue-600"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"[31m
+                [36m/>[31m
+                [36m<polyline[31m
+                  [33mpoints[31m=[32m"10 17 15 12 10 7"[31m
+                [36m/>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"15"[31m
+                  [33mx2[31m=[32m"3"[31m
+                  [33my1[31m=[32m"12"[31m
+                  [33my2[31m=[32m"12"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-3xl font-bold text-center text-gray-900 mb-2"[31m
+          [36m>[31m
+            [0mהתחבר לחשבון שלך[0m
+          [36m</h1>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-center text-gray-600 mb-8"[31m
+          [36m>[31m
+            [0mניהול הרשאות בנייה בקלות וביעילות[0m
+          [36m</p>[31m
+          [36m<form[31m
+            [33mclass[31m=[32m"space-y-6"[31m
+          [36m>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"email"[31m
+              [36m>[31m
+                [0mאימייל[0m
+              [36m</label>[31m
+              [36m<input[31m
+                [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                [33mid[31m=[32m"email"[31m
+                [33mname[31m=[32m"email"[31m
+                [33mplaceholder[31m=[32m"you@example.com"[31m
+                [33mtype[31m=[32m"email"[31m
+              [36m/>[31m
+            [36m</div>[31m
+            [36m<div>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"block text-sm font-medium text-gray-900 mb-2"[31m
+                [33mfor[31m=[32m"password"[31m
+              [36m>[31m
+                [0mסיסמה[0m
+              [36m</label>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"relative"[31m
+              [36m>[31m
+                [36m<input[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-lg border transition-colors border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"[31m
+                  [33mid[31m=[32m"password"[31m
+                  [33mname[31m=[32m"password"[31m
+                  [33mplaceholder[31m=[32m"••••••••"[31m
+                  [33mtype[31m=[32m"password"[31m
+                [36m/>[31m
+                [36m<button[31m
+                  [33maria-label[31m=[32m"הצג סיסמה"[31m
+                  [33mclass[31m=[32m"absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"[31m
+                  [33mtabindex[31m=[32m"-1"[31m
+                  [33mtype[31m=[32m"button"[31m
+                [36m>[31m
+                  [0mהצג[0m
+                [36m</button>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"w-full py-3 px-4 rounded-lg font-bold transition-colors bg-gray-300 text-gray-500 cursor-not-allowed"[31m
+              [33mdisabled[31m=[32m""[31m
+              [33mtype[31m=[32m"submit"[31m
+            [36m>[31m
+              [0mהתחבר[0m
+            [36m</button>[31m
+          [36m</form>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"mt-6 text-center"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-gray-600"[31m
+            [36m>[31m
+              [0mאין לך חשבון?[0m
+              [0m [0m
+              [36m<a[31m
+                [33mclass[31m=[32m"text-blue-600 font-bold hover:underline"[31m
+                [33mhref[31m=[32m"/register"[31m
+              [36m>[31m
+                [0mהירשם כאן[0m
+              [36m</a>[31m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m11 failed[39m[22m[2m | [22m[1m[32m44 passed[39m[22m[90m (55)[39m
+[2m   Start at [22m 16:26:34
+[2m   Duration [22m 22.96s[2m (transform 145ms, setup 161ms, collect 643ms, tests 20.76s, environment 801ms, prepare 407ms)[22m
+
